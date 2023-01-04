@@ -12,6 +12,8 @@ body{
 	background: #f3f3f3
 }
 
+/*ids*/
+
 #navegacao{
 	background: #fff;
 	border-bottom: 1px solid #d8d8d8;
@@ -27,7 +29,10 @@ body{
 }
 
 #logo{
+	padding: 0;
 	float: left;
+	color: #0067C5;
+	font-size: 50px;
 }
 
 #menu{
@@ -35,8 +40,77 @@ body{
 	padding: 10px 0;
 }
 
+#servicos{
+	background: #ffff;
+	width: 250px;
+	height: 300px;
+	padding: 5px;
+	margin-top: 50px;
+	float: right;
 
+}
+
+
+#area-principal{
+	width: 720px;
+	margin: 100px auto 10px auto ;
+}
+
+
+#galeria-foto{
+				background: #FFFFFF;
+				width: 	265px;
+				padding: 5px;
+				float: left;
+				margin: 110px 5px 55px 110px;
+			}
+
+#postagem{
+	background: #ffff;
+	padding: 50px;
+	
+	margin-bottom: 20px;
+}
+		
 
 
 /*Formatacao do menu*/
 /*Classes*/
+
+.verde{
+	color: #01998d;
+}
+
+.imagens{
+	height: 120px;
+	width: auto;
+	padding: 40px 40px  40px;
+	margin: 40px;
+	
+}
+
+.resumo{
+	font-size: 20px;
+	/*border-bottom: 2px solid #f4f4f4;*/
+	display: block;
+	margin: 0 auto 20px 25px;	
+	color: #01998d;
+}
+
+.clear{
+	clear: both;
+}
+
+.data-postagem{
+	
+	border-bottom: 1px solid #0067C5;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	color: #0067C5;
+}
+
+.texto{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}

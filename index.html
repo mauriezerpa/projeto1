@@ -4,6 +4,10 @@
 	<head>
 		<title>Go Tour - Sua agência de viagens </title>
 		<meta charset="utf-8" />
+
+		<!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+        <![endif]-->
 		
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 
@@ -66,35 +70,40 @@
 
 		<div id="formulario">
 			
-			<h2>Cadastre-se para receber ofertas </h2>
+			<h2 class="verde">Cadastre-se para receber ofertas </h2><br>
+			
 			<form>
 				
-				Nome: <br/>
-				<input type="texto" name="nome "> <br/>
+				<label for="nome"> Nome: </label> <br>
+			<input type="text" id="nome" autofocus>
+			<br><br>
 
-				E-mail: <br/>
-				<input type="texto" name="email"> <br/>
+				<label for="email"> Email: </label> <br>
+			<input type="email" id="email" placeholder="seu-emai@seu-emai.com" required >
+			<br><br>
 
-				Telefone: <br/>
-				<input type="texto" name="telefone"> <br/>
+				<label for="telefone"> Telefone: </label> <br>
+			<input type="number" id="telefone">
+			<br><br>
 
 				Tipo de Viagen: <br/>
 				<select>
-					<option selected disabled value="">Escolha</option>
+					<option selected disabled value="">Seleccione</option>
 					<option>Corporativa</option>
 					<option>Turismo</option>
 					<option>Aventura</option>
-				</select> <br/>
+				</select> <br/><br/>
 
 
-				Mensagem: <br/>
-				<textarea> </textarea> <br/>
+				Mensagem: <br>
+				<textarea> </textarea> <br/><br/>
 
-				<input type="submit" value=" Cadastre-se"> 
+				<input type="submit" value=" Cadastre-se"> <br> 
 
 			</form>
 
 		</div>	
+
 
 		<footer> 
 			<p> &copy; 2023 Todos os direitos reservados | Maurie Zerpa </p>

@@ -15,8 +15,11 @@ body{
 footer{
 	font-size: 14px;
 	margin: 10px 0 20px 100px ;
+}
 
-
+h2{
+	margin: 10px;
+	padding: 3px;
 }
 
 /*ids*/
@@ -64,6 +67,13 @@ footer{
 	margin: 100px auto 10px auto ;
 }
 
+#contato{
+	background: #fff;
+	width:1000px;
+	padding: 5px;
+	margin: 55px 5px 55px 130px;
+}
+
 
 #galeria-foto{
 				background: #FFFFFF;
@@ -80,6 +90,14 @@ footer{
 	margin-bottom: 20px;
 }
 
+
+#postagem-2{
+	background: #ffff;
+	padding: 10px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
 #formulario{
 	border: 2px solid #01998d;
 	margin: 30px;
@@ -90,6 +108,7 @@ footer{
 	margin: 60px;
 	margin-left: 0;
 	margin-right: auto;
+	margin-bottom: 0;
 	width: 100%;
 
 }
@@ -137,3 +156,10 @@ footer{
 	margin-bottom: 10px;
 }
 
+
+.imagens-2{
+	float: 	left	;
+	margin: 0 10px 5px 0;
+	height: 120px;
+	padding: 0;
+	}
